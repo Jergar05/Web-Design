@@ -1,0 +1,131 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 90%;
+    text-align: center;
+    background-color: white;
+    justify-content: center;
+    margin: auto;
+}
+
+.card {
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    padding: 30px;
+    margin: 120px auto;
+}
+
+h1 {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.small {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.form-content {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+}
+
+input[type="text"]:focus,
+input[type="text"]:hover {
+    background-color: #ADE8F4;
+    color: #0077b6;
+    border-color: darkblue;
+    outline: none;
+    border-radius: 10px;
+}
+
+input[type="password"] {
+    width: 300px;
+    padding: 10px;
+}
+
+input[type="password"]:focus,
+input[type="password"]:hover {
+    background-color: #ADE8F4;
+    color: #0077b6;
+    border-color: darkblue;
+    outline: none;
+    border-radius: 10px;
+}
+
+p {
+    text-align: left;
+}
+
+.submit {
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #0077b6;
+    border: grey;
+    color: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+button.submit:hover{
+    background-color: rgb(31, 155, 196);
+}
+
+.divider{
+    margin-top: 18px;
+    text-align: center;
+    margin-left: 0px;
+}
+
+.divider::before, .divider::after {
+    background-color: rgb(200, 199, 199);
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+.divider::before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.divider::after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
+.social {
+    width: 90%;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+
+a:hover {
+    background-color: lightgray;
+    color: #0077b6;
+}
+
+button.social:hover{
+    background-color: lightgray;
+}
+
+footer {
+    margin-top: -100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-bottom: 60px;
+}
